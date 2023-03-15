@@ -34,7 +34,7 @@ namespace Movie_Search_API.Controllers
             var data = _context.Review.ToList();            
             return Ok(data);
         }
-
+//
         [HttpDelete]
         [Route("Delete")]
         public IActionResult Delete(int reviewid)
